@@ -17,6 +17,13 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+gem 'jquery-rails'
+# Wrapper for Pusher Channels REST api: : https://pusher.com/channels
+gem 'pusher'
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
